@@ -17,6 +17,7 @@ namespace Tailor.Views
         string _path = Path.Combine(System.Environment.GetFolderPath(System.Environment.SpecialFolder.Personal), "DB.db");
         public ClientListPage()
         {
+
             StackLayout stackLayout = new StackLayout();
             this.Title = "Список клиентов";
             var data = new SQLiteConnection(_path);

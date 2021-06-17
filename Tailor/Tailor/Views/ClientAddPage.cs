@@ -13,6 +13,7 @@ namespace Tailor.Views
     public class ClientAddPage : ContentPage
     {
 
+
         private Entry _name;
         private Entry _lastname;
         private Entry _number;

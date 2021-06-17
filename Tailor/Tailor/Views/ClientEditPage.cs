@@ -11,6 +11,7 @@ namespace Tailor.Views
 {
     public class ClientEditPage : ContentPage
     {
+
         private ListView _listView;
         private Entry _id;
         private Entry _name;

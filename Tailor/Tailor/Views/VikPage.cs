@@ -13,6 +13,7 @@ namespace Tailor.Views
 {
     public class VikPage : ContentPage
     {
+
         int n = 15;
         //private Button button;
         private SKCanvasView _sKCanvasView;
